@@ -32,7 +32,7 @@ namespace GomokuGame
 
         static void Main(string[] args)
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8; //  Это гарантирует правильное отображение всех символов.
             Console.CursorVisible = false; // Скрывает мигающий курсор в консоли.
 
             int menuIndex = 0; // Хранит номер выбранного пункта меню.
